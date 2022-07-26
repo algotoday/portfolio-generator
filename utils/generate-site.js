@@ -32,3 +32,7 @@ const writeFile = fileContent => {
       });
     });
   };
+  module.exports = {
+    writeFile: writeFile,
+    copyFile: copyFile
+  };
